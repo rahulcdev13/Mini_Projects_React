@@ -1,0 +1,23 @@
+.Headin{
+    font-weight: bold; 
+    margin-top: 20px;  
+    font-family :'Times New Roman', Times, serif;
+}  
+.containerrr{
+    width: 800px; 
+}
+.optionselect{
+    display: flex;   
+}
+.selectOption{
+    color: rgb(92, 92, 241);
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px gray;
+    text-transform: uppercase;
+}
+textarea{
+    box-shadow: 0px 0px 5px gray;
+    border: none;
+}

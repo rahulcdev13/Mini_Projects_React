@@ -1,0 +1,64 @@
+.Heading{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: brown;
+    font-family :'Times New Roman', Times, serif;
+}
+ 
+.chatBox{
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 5px 0 ;
+    padding: 10px;
+    background-color: bisque;
+}
+.containers{ 
+    display: flex;
+}
+.containers.me{ 
+    flex-direction: row-reverse;
+}
+.me .chatBox{
+    background-color: rgb(93, 184, 226);
+}
+.userName{
+    display: flex;
+}
+.names{
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.chat-container{
+    margin-bottom: 100px;
+} 
+.userHeading{
+    text-align : left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn{
+    margin: 4px 0px 0px 3px;
+    height: 50px; 
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgb(141, 138, 138);
+} 
+.btm{
+    margin-bottom: 40px; 
+    position: fixed;
+    width:100%;
+    bottom: 1px;
+    display: flex;
+    padding: 5px;  
+}
+.btm  button {
+    padding: 10px;
+    margin-right: 5px;
+}
+.btm input {
+    padding: 10px;
+    flex-grow: 1;
+}
